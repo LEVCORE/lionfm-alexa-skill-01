@@ -51,7 +51,7 @@ Alexa, frage Lion FM, was zuletzt lief
 9. Füge dieses Repository ein:
 
 ```text
-https://github.com/LEVCORE/lionfm-alexa-skill.git
+https://github.com/LEVCORE/lionfm-alexa-skill-01.git
 ```
 
 10. Klicke auf **Import** und warte, bis Amazon das Repository vollständig importiert hat.
@@ -186,4 +186,4 @@ Die Audiostreams und Titelinformationen werden über laut.fm bereitgestellt. Fü
 
 ---
 
-**Repository:** <https://github.com/LEVCORE/lionfm-alexa-skill>
+**Repository:** <https://github.com/LEVCORE/lionfm-alexa-skill-01>
