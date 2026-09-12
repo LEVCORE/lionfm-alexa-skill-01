@@ -1,0 +1,251 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "lion fm",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayStationIntent",
+          "slots": [
+            {
+              "name": "station",
+              "type": "LIONFM_STREAM"
+            }
+          ],
+          "samples": [
+            "spiele {station}",
+            "starte {station}",
+            "öffne {station}",
+            "wechsle zu {station}",
+            "ich möchte {station} hören",
+            "mach {station} an",
+            "{station}"
+          ]
+        },
+        {
+          "name": "CurrentSongIntent",
+          "slots": [
+            {
+              "name": "station",
+              "type": "LIONFM_STREAM"
+            }
+          ],
+          "samples": [
+            "was aktuell läuft",
+            "was gerade läuft",
+            "wie der titel heißt",
+            "wie das lied heißt",
+            "was läuft auf {station}",
+            "welcher titel läuft auf {station}"
+          ]
+        },
+        {
+          "name": "LastSongsIntent",
+          "slots": [
+            {
+              "name": "station",
+              "type": "LIONFM_STREAM"
+            }
+          ],
+          "samples": [
+            "was davor lief",
+            "was zuletzt lief",
+            "was lief zuletzt auf {station}"
+          ]
+        },
+        {
+          "name": "ListStationsIntent",
+          "slots": [],
+          "samples": [
+            "welche sender gibt es",
+            "welche streams gibt es",
+            "nenne mir die sender",
+            "liste die sender auf",
+            "was kann ich hören",
+            "welche lion fm sender gibt es"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "LIONFM_STREAM",
+          "values": [
+            {
+              "id": "lionfm",
+              "name": {
+                "value": "Lion FM",
+                "synonyms": [
+                  "LionFM",
+                  "Hauptsender",
+                  "Main"
+                ]
+              }
+            },
+            {
+              "id": "topchartsfm",
+              "name": {
+                "value": "Top Charts FM",
+                "synonyms": [
+                  "TopChartsFM",
+                  "Top Charts",
+                  "Charts"
+                ]
+              }
+            },
+            {
+              "id": "dancefm",
+              "name": {
+                "value": "Dance FM",
+                "synonyms": [
+                  "DanceFM",
+                  "Dance",
+                  "EDM"
+                ]
+              }
+            },
+            {
+              "id": "hollyfm",
+              "name": {
+                "value": "Holly FM",
+                "synonyms": [
+                  "HollyFM",
+                  "Holly",
+                  "2010er"
+                ]
+              }
+            },
+            {
+              "id": "schlagerparadies",
+              "name": {
+                "value": "Schlagerparadies",
+                "synonyms": [
+                  "Schlager Paradies",
+                  "Schlager"
+                ]
+              }
+            },
+            {
+              "id": "servfm",
+              "name": {
+                "value": "Serv FM",
+                "synonyms": [
+                  "SERVFM",
+                  "Serv",
+                  "Sommer"
+                ]
+              }
+            },
+            {
+              "id": "nightlifefm",
+              "name": {
+                "value": "Nightlife FM",
+                "synonyms": [
+                  "NightlifeFM",
+                  "Nightlife"
+                ]
+              }
+            },
+            {
+              "id": "remixfm",
+              "name": {
+                "value": "Remix FM",
+                "synonyms": [
+                  "RemixFM",
+                  "Remix"
+                ]
+              }
+            },
+            {
+              "id": "80s90sfm",
+              "name": {
+                "value": "80s 90s FM",
+                "synonyms": [
+                  "80S90SFM",
+                  "80er 90er FM",
+                  "Achtziger Neunziger FM",
+                  "80er und 90er"
+                ]
+              }
+            },
+            {
+              "id": "malleparadies",
+              "name": {
+                "value": "Malleparadies",
+                "synonyms": [
+                  "Malle Paradies",
+                  "Malle"
+                ]
+              }
+            },
+            {
+              "id": "xmasfm",
+              "name": {
+                "value": "Xmas FM",
+                "synonyms": [
+                  "XMASFM",
+                  "Christmas FM",
+                  "Weihnachten"
+                ]
+              }
+            },
+            {
+              "id": "citymusicfm",
+              "name": {
+                "value": "City Music FM",
+                "synonyms": [
+                  "CITYMUSICFM",
+                  "City Music",
+                  "City"
+                ]
+              }
+            },
+            {
+              "id": "rewindfm",
+              "name": {
+                "value": "Rewind FM",
+                "synonyms": [
+                  "REWINDFM",
+                  "Rewind",
+                  "2000er"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "1"
+}
